@@ -1,9 +1,110 @@
+#9
+
+from random import *
 from math import *
 
-a=float(input("pikkus:"))
-b=float(input("ladius:"))
-d=sqrt(a**2+b**2)
-print("Diagonaal=",d,"m") 
+try:
+    P=int(input("Sõbrade kogus: "))
+except :
+    print("Kogus on täisarv")
+hind=12.90
+hind*=hind*1.1 #hind+10% 1
+print("Igaüks maksb ", hind/P)
+
+
+
+
+
+
+
+#8
+
+#from random import *
+#from math import *
+
+#try:
+#    a=int(input("a: "))
+#except :
+#    print("On vaja taäsarv kasutada!")
+#try:
+#     b=int(input("b: "))
+#except :
+#    print("Viga muutujaga!")
+#try:
+#     c=int(input("c: "))
+#except :
+#     print("Viga muutujaga!")
+
+#P=a+b+c 
+#print("Perimetr/Ümbermõõt: ",P)
+
+#print("@..@".center(10," ")) #center сам распрделяет текст по середине учитывая заданое число ему 
+#print("(----)".center(10," "))
+#print("( \__/ )".center(10," "))
+#print("^^ "" ^^".center(10," "))   #жаба
+
+
+
+
+#7
+
+#from random import *
+#from math import *
+#try:
+#    min_=int(input("Min: "))
+#except :
+#    print("On vaja täisarv kasutada!")
+#try:
+#    max_=int(input("Max: "))
+#except :
+#    print("Viga max_ muutujuga")
+
+
+#a1=randint(min_,max_)
+#a2=randint(min_,max_) 
+#a3=randint(min_,max_) 
+#a4=randint(min_,max_) 
+#a5=randint(min_,max_) 
+#keskmine=(a1+a2+a3+a4+a5)/5 #Деление всех чисел на 5 
+#print("Arvud: {0},{1},{2},{3},{4}. Aritmetiline keskmine on: {5}".format(a1,a2,a3,a4,a5,keskmine)) #подсчет остальных чисел для вычисления среднеарифмитечского
+
+
+
+
+
+
+
+
+##На сегодняшнем уроке мы будем делать проверку, и исправлять ошибки 12.12.2023
+#6
+#try:
+#    aeg = float(input("Mitu tundi kulus sõiduks? ")) ##попытка ввести значения времени
+#    try: #помогает избежать ошибки при вводе букв а не цифр(try,expect)try:
+#        teepikkus = float(input("Mitu kilomeetrit sõitsid? ")) #попытка ввести значения расстояния
+#        kiirus = aeg / teepikkus #рассчет скорости
+#        print("Sinu kiirus oli " + str(kiirus) + " km/h")
+#    except :
+#        print("Viga andmetaga")
+#except :
+#    print("On vaja ainult numbrid sisesta!")
+
+
+
+
+
+
+
+
+
+
+
+#5
+#from math import *
+
+#a=float(input("pikkus:"))
+#b=float(input("ladius:"))
+#d=sqrt(a**2+b**2)
+#print("Diagonaal=",d,"m") 
 
 
 #from random import *
