@@ -1,4 +1,7 @@
 
+#ИНДЕКС МАССЫ ТЕЛА
+
+
 from operator import length_hint
 
 
