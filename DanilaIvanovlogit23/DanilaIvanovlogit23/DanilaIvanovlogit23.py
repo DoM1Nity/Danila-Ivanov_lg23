@@ -1,5 +1,12 @@
 
-#ИНДЕКС МАССЫ ТЕЛА
+
+
+
+
+
+
+
+##ИНДЕКС МАССЫ ТЕЛА
 
 
 from operator import length_hint
@@ -7,32 +14,32 @@ from operator import length_hint
 
 print("Tere! Olen sinu uus sõber - Python!")
 nimi=input("Mis on sinu nimi? ").capitalize()
-print("oi kui ilus nimi! " +nimi+ "!")
+print("oi kui ilus nimi!" +nimi+ "!")
 indeks=input("Kas leian Sinu keha indeksi? 0-ei, 1-jah =>").capitalize()
 
 length = len(nimi)
-mass = float(input("Öelge oma kehakaal:" ))
+mass = float(input("Öelge oma kehakaal:"))
 if mass > 200:
   print("Seda on liiga palju!")
   i = mass / (0.01 * length) ** 2
-  print(nimi + "Teie keha indeks", i)
-    if i < 16:
+  print(nimi + "Teie keha indeks",i)
+   if i <16:
         print("Ebapiisav kaal")
-    elif 16 <= i < 25:
+   elif 16<= i<25:
         print("Ebapiisav kaal")
-    elif 19 <= i < 45:
+   elif 19<= i<45:
         print("Normaalne kaal")
-    elif 25 <= i < 50:
+   elif 25<= i<50:
         print("Normaalne kaal")
-    elif 30 <= i < 40:
+   elif 30<= i<40:
         print("suur kaal")
-    elif 35 <= i < 60:
+   elif 35<= i<60:
         print("suur kaal")
-    else:
+   else:
         print("ohtlik kaal tervisele")
   else:
-    print("Жалко! see on väga oluline.")
-print("Näeme hiljem, ", name ,"! sinu sõber!!")
+     print(see on väga oluline.")
+  print("Näeme hiljem, ", name ,"! sinu sõber!!")
 
 
 
