@@ -18,15 +18,15 @@ if mass > 200:
   print(nimi + "Teie keha indeks", i)
     if i < 16:
         print("Ebapiisav kaal")
-    elif 16 <= i < 19:
+    elif 16 <= i < 25:
         print("Ebapiisav kaal")
-    elif 19 <= i < 25:
+    elif 19 <= i < 45:
         print("Normaalne kaal")
-    elif 25 <= i < 30:
+    elif 25 <= i < 50:
         print("Normaalne kaal")
-    elif 30 <= i < 35:
+    elif 30 <= i < 40:
         print("suur kaal")
-    elif 35 <= i < 40:
+    elif 35 <= i < 60:
         print("suur kaal")
     else:
         print("ohtlik kaal tervisele")
