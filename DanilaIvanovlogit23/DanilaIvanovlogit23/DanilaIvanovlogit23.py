@@ -6,40 +6,40 @@
 
 
 
-##ИНДЕКС МАССЫ ТЕЛА
+###ИНДЕКС МАССЫ ТЕЛА
 
 
-from operator import length_hint
+#from operator import length_hint
 
 
-print("Tere! Olen sinu uus sõber - Python!")
-nimi=input("Mis on sinu nimi? ").capitalize()
-print("oi kui ilus nimi!" +nimi+ "!")
-indeks=input("Kas leian Sinu keha indeksi? 0-ei, 1-jah =>").capitalize()
+#print("Tere! Olen sinu uus sõber - Python!")
+#nimi=input("Mis on sinu nimi? ").capitalize()
+#print("oi kui ilus nimi!" +nimi+ "!")
+#indeks=input("Kas leian Sinu keha indeksi? 0-ei, 1-jah =>").capitalize()
 
-length = len(nimi)
-mass = float(input("Öelge oma kehakaal:"))
-if mass > 200:
-  print("Seda on liiga palju!")
-  i = mass / (0.01 * length) ** 2
-  print(nimi + "Teie keha indeks",i)
-   if i <16:
-        print("Ebapiisav kaal")
-   elif 16<= i<25:
-        print("Ebapiisav kaal")
-   elif 19<= i<45:
-        print("Normaalne kaal")
-   elif 25<= i<50:
-        print("Normaalne kaal")
-   elif 30<= i<40:
-        print("suur kaal")
-   elif 35<= i<60:
-        print("suur kaal")
-   else:
-        print("ohtlik kaal tervisele")
-  else:
-     print(see on väga oluline.")
-  print("Näeme hiljem, ", name ,"! sinu sõber!!")
+#length = len(nimi)
+#mass = float(input("Öelge oma kehakaal:"))
+#if mass > 200:
+#  print("Seda on liiga palju!")
+#  i = mass / (0.01 * length) ** 2
+#  print(nimi + "Teie keha indeks",i)
+#   if i <16:
+#        print("Ebapiisav kaal")
+#   elif 16<= i<25:
+#        print("Ebapiisav kaal")
+#   elif 19<= i<45:
+#        print("Normaalne kaal")
+#   elif 25<= i<50:
+#        print("Normaalne kaal")
+#   elif 30<= i<40:
+#        print("suur kaal")
+#   elif 35<= i<60:
+#        print("suur kaal")
+#   else:
+#        print("ohtlik kaal tervisele")
+#  else:
+#     print("see on väga oluline.")
+#  print("Näeme hiljem, ", name ,"! sinu sõber!!")
 
 
 
@@ -151,38 +151,38 @@ if mass > 200:
 
 
 #8
-#from random import *
-#from datetime import *
-#arve_nr=datetime.now() #date.today()
-#print(arve_nr)
-#import datetime
+from random import *
+from datetime import *
+arve_nr=datetime.now() #date.today()
+print(arve_nr)
+import datetime
 
-#x = datetime.datetime.now()
+x = datetime.datetime.now()
 
-#tsekk="Arve: 12345\nToode Hind Kogus Summa"
-#summa=0
-#toode="piim"
-#hind=randint(50,150)/100
-#v=input("Toode:"+toode+ " Hind "+str(hind)+ "\nKas tahad osta?").lower()
-#if v=="jah":
-#  mitu=int(input("Mitu?"))
-#  tsekk+=toode+" "+str(hind)+" "+str(mitu)+ " "+str(mitu*hind)+ "\n"
-#  summa+=mitu*hind
-#toode="leib"
-#hind=randint(50,150)/100
-#v=input("Toode:"+toode+ " Hind "+str(hind)+ "\nKas tahad osta?").lower()
-#if v=="jah":
-#  mitu=int(input("Mitu?"))
-#  tsekk+=toode+" "+str(hind)+" "+str(mitu)+ " "+str(mitu*hind)+ "\n"
-#  summa+=mitu*hind
-#toode="saia"
-#hind=randint(50,150)/100
-#v=input("Toode:"+toode+ " Hind "+str(hind)+ "\nKas tahad osta?").lower()
-#if v=="jah":
-#  mitu=int(input("Mitu?"))
-#  tsekk+=toode+" "+str(hind)+" "+str(mitu)+ " "+str(mitu*hind)+ "\n"
-#  summa+=mitu*hind
-#  tsekk+="Kokku maksta: "+str(summa)
+tsekk="Arve: 12345\nToode Hind Kogus Summa"
+summa=0
+toode="piim"
+hind=randint(50,150)/100
+v=input("Toode:"+toode+ " Hind "+str(hind)+ "\nKas tahad osta?").lower()
+if v=="jah":
+  mitu=int(input("Mitu?"))
+  tsekk+=toode+" "+str(hind)+" "+str(mitu)+ " "+str(mitu*hind)+ "\n"
+  summa+=mitu*hind
+toode="leib"
+hind=randint(50,150)/100
+v=input("Toode:"+toode+ " Hind "+str(hind)+ "\nKas tahad osta?").lower()
+if v=="jah":
+  mitu=int(input("Mitu?"))
+  tsekk+=toode+" "+str(hind)+" "+str(mitu)+ " "+str(mitu*hind)+ "\n"
+  summa+=mitu*hind
+toode="saia"
+hind=randint(50,150)/100
+v=input("Toode:"+toode+ " Hind "+str(hind)+ "\nKas tahad osta?").lower()
+if v=="jah":
+  mitu=int(input("Mitu?"))
+  tsekk+=toode+" "+str(hind)+" "+str(mitu)+ " "+str(mitu*hind)+ "\n"
+  summa+=mitu*hind
+  tsekk+="Kokku maksta: "+str(summa)
 
 
 
