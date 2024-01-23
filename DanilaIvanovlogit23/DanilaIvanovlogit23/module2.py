@@ -1,42 +1,37 @@
-from datetime import *
-from random import *
-k=0
-while True:
-    k+=1
-    a=randint(1,50)
-    b=randint(1,50)
-    p=0
-    while p!=3:
-        p+=1
-        v=int(input("Millega võrdub {0}+{1}= ".format(a,b)))
-        if v==a+b:
-            print("Tubli!")
-            break
-        else:
-            print("Mõtle veel!")
-    print("{0}+{1}={2}".format(a,b,a+b))
-    if k==5:break
+print("Arv ruut Kuup")
+print()
+print("-------------")
+print()
 
-total_attempts = 5
-correct_answers = 0
+for i in range(1,11):
+    ruut = i ** 2 
+    kuup = i ** 3 
+    print(f"{i:2} {ruut:2} {kuup:3}")
 
-print("Добро пожаловать в игру сложения!")
-print("Вы должны угадать результат сложения двух случайных чисел от 1 до 50.")
 
-for attempt in range(1, total_attempts + 1):
-    num1 = random.randint(1, 50)
-    num2 = random.randint(1, 50)
-    correct_sum = num1 + num2
 
-    user_answer = int(input(f"Сколько будет {num1} + {num2}? Ваш ответ: "))
 
-    if user_answer == correct_sum:
-        correct_answers += 1
-        print("Правильно! Молодец!")
-    else:
-        print(f"Неправильно. Правильный ответ: {correct_sum}")
 
-print(f"\nИгра завершена. Вы правильно ответили на {correct_answers} из {total_attempts} вопросов.")
+
+#11
+#from random import *
+#from termios import *
+#number=randint
+#katsed=3
+#while katsed>0:
+#    külaline = int(input("Угадайте число от 1 до 100: "))
+#    if külaline == number:
+#        print("Поздравляю, вы угадали число!")
+#    else:
+#        katsed -= 1 
+#        print(f"Неверно. У вас осталось {katsed} попыток")
+#        if katsed == 0:
+#            print(f"Извините, вы израсходывали все свои попытки. Загаданное число было {number}.")
+#            veelkord = input("Хотите ли угадать: ").lower
+#            if veelkord.lower()=="нет":
+#               break
+#            else:
+#               katsed=3
 
 
 
@@ -47,6 +42,78 @@ print(f"\nИгра завершена. Вы правильно ответили 
 
 
 
+
+
+#paaris=0
+#paaritu=0
+#for i in range(1,101):
+#    if i%2==0:
+#        print(f"{i}-paaris")
+#        paaris+=1
+#    else:
+#        print(f"{i}-paaris")
+#        paaris+=1
+
+#print(f"Paarisarvude arv: paaris")
+#print(f"Paaritute arvude arv: {paaritu}")
+
+
+
+
+
+
+#15
+#katsed = 0
+#while True:
+#    vastus = input("Osta elevant ära! Kirjuta 'elevant': ")
+#    katsed += 1 
+
+
+#    if vastus.lower() == 'elevant':
+#       print(f"Õige! Ostsid elevanti ära {katsed} katsega")
+#       break
+#    else:
+#        print("Vale vastus. Proovi uuesti")
+
+
+
+
+
+
+
+
+
+#4 Решено 2 способами
+
+#arv=["1","2","3","4","5","6","7","8","9","10"]
+#for i in range(10):
+# print(f"{arv[i]}")
+
+
+#for i in range(1,11):   #взяты числа от 1 до 10
+#   tulemus =(i)    # i умножаем на 5 (1,11)
+#   print(f"{i}")
+
+
+
+#from datetime import *
+#from random import *
+#k=0
+#while True:
+#    k+=1
+#    a=randint(1,50)
+#    b=randint(1,50)
+#    p=0
+#    while p!=3:
+#        p+=1
+#        v=int(input("Millega võrdub {0}+{1}= ".format(a,b)))
+#        if v==a+b:
+#            print("Tubli!")
+#            break
+#        else:
+#            print("Mõtle veel!")
+#    print("{0}+{1}={2}".format(a,b,a+b))
+#    if k==5:break
 
 
 
@@ -119,6 +186,14 @@ print(f"\nИгра завершена. Вы правильно ответили 
 
 
 
+#korrutamine=5
+
+#for i in range(1,11):   #взяты числа от 1 до 10
+#   tulemus =(i) * 5     # i умножаем на 5 (1,11)
+#   print(f"{i} * 5 = {tulemus}")
+
+
+
 
 
 
@@ -142,13 +217,13 @@ print(f"\nИгра завершена. Вы правильно ответили 
 
 
 
-##from random import *
-##from datetime import *
+#from random import *
+#from datetime import *
 
 #paevad=["Esmapäev","Tesipäev","Kolmapäev","Neljapäev","Reede","Laupäev","Pühapäev"]
 #tunnid=["8 tundi","9 tundi","2 tundi","7 tundi","4 tundi","tuni pole","tundi pole"] 
 #for i in range(7):
-    #print(paevad[i]+"-"+tunnid[i])
+#    print(paevad[i]+"-"+tunnid[i])
 
 
 
